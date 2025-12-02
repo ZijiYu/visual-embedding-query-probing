@@ -1,0 +1,317 @@
+[2025-11-28 09:31:52] [INFO] Loading samples from jsonl...
+[2025-11-28 09:31:52] [INFO] Train size: 16, Val size: 4
+[2025-11-28 09:32:05] [INFO] 
+Saved precomputed features to: /workspace/probing/Probing/src/precomputed_features.pt
+[2025-11-28 09:35:20] [INFO] Loading samples from jsonl...
+[2025-11-28 09:35:20] [INFO] Train size: 16, Val size: 4
+[2025-11-28 09:35:33] [INFO] 
+Saved precomputed features to: /workspace/probing/Probing/src/precomputed_features.pt
+[2025-11-28 09:37:42] [INFO] Loading samples from jsonl...
+[2025-11-28 09:37:42] [INFO] Train size: 16, Val size: 4
+[2025-11-28 09:37:49] [INFO] 
+Saved precomputed features to: /workspace/probing/Probing/src/precomputed_features.pt
+[2025-11-28 09:37:53] [INFO] Loading precomputed features from: /workspace/probing/Probing/src/precomputed_features.pt
+[2025-11-28 09:37:53] [INFO] Loaded features: torch.Size([20, 3584])
+[2025-11-28 09:37:53] [INFO] Active fields from precompute: ['title', 'author']
+[2025-11-28 09:37:53] [INFO] Fields used for training: ['title', 'author']
+[2025-11-28 09:37:53] [INFO] Train size: 16, Val size: 4
+[2025-11-28 09:37:54] [INFO] Start training (multi-head probe on precomputed features)...
+[2025-11-28 09:37:55] [INFO] Epoch 1/10 Train Loss: 4.6070 | Val Loss: 4.6249 | title Acc: 0.0000 | author Acc: 0.0000
+[2025-11-28 09:37:55] [INFO] Epoch 2/10 Train Loss: 4.5865 | Val Loss: 4.6479 | title Acc: 0.0000 | author Acc: 0.0000
+[2025-11-28 09:37:55] [INFO] Epoch 3/10 Train Loss: 4.5664 | Val Loss: 4.6707 | title Acc: 0.0000 | author Acc: 0.0000
+[2025-11-28 09:37:55] [INFO] Epoch 4/10 Train Loss: 4.5466 | Val Loss: 4.6932 | title Acc: 0.0000 | author Acc: 0.0000
+[2025-11-28 09:37:55] [INFO] Epoch 5/10 Train Loss: 4.5272 | Val Loss: 4.7153 | title Acc: 0.0000 | author Acc: 0.0000
+[2025-11-28 09:37:55] [INFO] Epoch 6/10 Train Loss: 4.5081 | Val Loss: 4.7369 | title Acc: 0.0000 | author Acc: 0.0000
+[2025-11-28 09:37:55] [INFO] Epoch 7/10 Train Loss: 4.4893 | Val Loss: 4.7579 | title Acc: 0.0000 | author Acc: 0.0000
+[2025-11-28 09:37:55] [INFO] Epoch 8/10 Train Loss: 4.4708 | Val Loss: 4.7783 | title Acc: 0.0000 | author Acc: 0.0000
+[2025-11-28 09:37:55] [INFO] Epoch 9/10 Train Loss: 4.4527 | Val Loss: 4.7981 | title Acc: 0.0000 | author Acc: 0.0000
+[2025-11-28 09:37:55] [INFO] Epoch 10/10 Train Loss: 4.4348 | Val Loss: 4.8170 | title Acc: 0.0000 | author Acc: 0.0000
+[2025-11-28 09:37:55] [INFO] Training finished.
+[2025-11-28 09:37:55] [INFO] Saved multi-field probe (on features) to /workspace/probing/Probing/src/multi_field_probe_on_features.pt
+[2025-11-28 09:38:30] [INFO] Loading samples from jsonl...
+[2025-11-28 09:38:30] [INFO] Train size: 16, Val size: 4
+[2025-11-28 09:38:37] [INFO] 
+Saved precomputed features to: /workspace/probing/Probing/src/precomputed_features.pt
+[2025-11-28 09:38:41] [INFO] Loading precomputed features from: /workspace/probing/Probing/src/precomputed_features.pt
+[2025-11-28 09:38:41] [INFO] Loaded features: torch.Size([20, 3584])
+[2025-11-28 09:38:41] [INFO] Active fields from precompute: ['title', 'author']
+[2025-11-28 09:38:41] [INFO] Fields used for training: ['title', 'author']
+[2025-11-28 09:38:41] [INFO] Train size: 16, Val size: 4
+[2025-11-28 09:38:42] [INFO] Start training (multi-head probe on precomputed features)...
+[2025-11-28 09:38:43] [INFO] Epoch 1/10 Train Loss: 4.6012 | Val Loss: 4.6387 | title Acc: 0.0000 | author Acc: 0.0000
+[2025-11-28 09:38:43] [INFO] Epoch 2/10 Train Loss: 4.5810 | Val Loss: 4.6614 | title Acc: 0.0000 | author Acc: 0.0000
+[2025-11-28 09:38:43] [INFO] Epoch 3/10 Train Loss: 4.5610 | Val Loss: 4.6838 | title Acc: 0.0000 | author Acc: 0.0000
+[2025-11-28 09:38:43] [INFO] Epoch 4/10 Train Loss: 4.5414 | Val Loss: 4.7059 | title Acc: 0.0000 | author Acc: 0.0000
+[2025-11-28 09:38:43] [INFO] Epoch 5/10 Train Loss: 4.5221 | Val Loss: 4.7276 | title Acc: 0.0000 | author Acc: 0.0000
+[2025-11-28 09:38:43] [INFO] Epoch 6/10 Train Loss: 4.5031 | Val Loss: 4.7488 | title Acc: 0.0000 | author Acc: 0.0000
+[2025-11-28 09:38:43] [INFO] Epoch 7/10 Train Loss: 4.4845 | Val Loss: 4.7694 | title Acc: 0.0000 | author Acc: 0.0000
+[2025-11-28 09:38:43] [INFO] Epoch 8/10 Train Loss: 4.4661 | Val Loss: 4.7893 | title Acc: 0.0000 | author Acc: 0.0000
+[2025-11-28 09:38:43] [INFO] Epoch 9/10 Train Loss: 4.4481 | Val Loss: 4.8086 | title Acc: 0.0000 | author Acc: 0.0000
+[2025-11-28 09:38:43] [INFO] Epoch 10/10 Train Loss: 4.4303 | Val Loss: 4.8271 | title Acc: 0.0000 | author Acc: 0.0000
+[2025-11-28 09:38:43] [INFO] Training finished.
+[2025-11-28 09:38:43] [INFO] Saved multi-field probe (on features) to /workspace/probing/Probing/src/multi_field_probe_on_features.pt
+[2025-11-28 09:38:49] [INFO] Loading trained probe from: /workspace/probing/Probing/src/multi_field_probe_on_features.pt
+[2025-11-28 09:38:49] [INFO] Loading tokenizer & model (for probing)...
+[2025-11-28 09:38:59] [INFO] Hidden size: 3584
+[2025-11-28 09:38:59] [INFO] Model param device: cuda:0
+[2025-11-28 09:38:59] [INFO] Loading samples from jsonl for probing...
+[2025-11-28 09:38:59] [INFO] Total samples: 20
+[2025-11-28 09:39:00] [INFO] {"image_path": "/workspace/share/data/jpg/61c9efe0-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "寒林钟馗图", "pred_title": "赤壁图", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "陈琳", "pred_author": "武元直", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 09:39:01] [INFO] {"image_path": "/workspace/share/data/jpg/68ab8de6-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "红白芙蓉図", "pred_title": "红白芙蓉図", "correct_title": true, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "李迪", "pred_author": "李迪", "correct_author": true, "correct_all_fields": true}
+[2025-11-28 09:39:02] [INFO] {"image_path": "/workspace/share/data/jpg/6862b8fa-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "Flowers and Plants", "pred_title": "Flowers and Plants", "correct_title": true, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "陈鸿寿", "pred_author": "陈鸿寿", "correct_author": true, "correct_all_fields": true}
+[2025-11-28 09:39:02] [INFO] {"image_path": "/workspace/share/data/jpg/62aaae22-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "牧牛图", "pred_title": "红白芙蓉図", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "张穆", "pred_author": "武元直", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 09:39:03] [INFO] {"image_path": "/workspace/share/data/jpg/61c9efe0-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "寒林钟馗图", "pred_title": "赤壁图", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "陈琳", "pred_author": "武元直", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 09:39:13] [INFO] {"image_path": "/workspace/share/data/jpg/2b6a8968-5f3e-11ed-b1c1-2d612f358c7a.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "赤壁图", "pred_title": "赤壁图", "correct_title": true, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "武元直", "pred_author": "武元直", "correct_author": true, "correct_all_fields": true}
+[2025-11-28 09:39:13] [INFO] Saved probing predictions to: /workspace/probing/Probing/src/probing_predictions_all_multi_fields.jsonl
+[2025-11-28 09:39:13] [INFO] Done.
+[2025-11-28 09:53:38] [INFO] Loading samples from jsonl...
+[2025-11-28 09:53:38] [INFO] Train size: 2175, Val size: 544
+[2025-11-28 10:06:57] [INFO] 
+Saved precomputed features to: /workspace/probing/Probing/src/precomputed_features.pt
+[2025-11-28 10:07:01] [INFO] Loading precomputed features from: /workspace/probing/Probing/src/precomputed_features.pt
+[2025-11-28 10:07:01] [INFO] Loaded features: torch.Size([2719, 3584])
+[2025-11-28 10:07:01] [INFO] Active fields from precompute: ['title', 'author']
+[2025-11-28 10:07:01] [INFO] Fields used for training: ['title', 'author']
+[2025-11-28 10:07:01] [INFO] Train size: 2175, Val size: 544
+[2025-11-28 10:07:02] [INFO] Start training (multi-head probe on precomputed features)...
+[2025-11-28 10:07:03] [INFO] Epoch 1/10 Train Loss: 14.1648 | Val Loss: 14.1426 | title Acc: 0.0129 | author Acc: 0.0184
+[2025-11-28 10:07:03] [INFO] Epoch 2/10 Train Loss: 13.6448 | Val Loss: 14.2520 | title Acc: 0.0257 | author Acc: 0.0147
+[2025-11-28 10:07:04] [INFO] Epoch 3/10 Train Loss: 13.3370 | Val Loss: 14.3587 | title Acc: 0.0129 | author Acc: 0.0239
+[2025-11-28 10:07:04] [INFO] Epoch 4/10 Train Loss: 13.1075 | Val Loss: 14.4595 | title Acc: 0.0129 | author Acc: 0.0312
+[2025-11-28 10:07:04] [INFO] Epoch 5/10 Train Loss: 12.9327 | Val Loss: 14.5657 | title Acc: 0.0129 | author Acc: 0.0349
+[2025-11-28 10:07:05] [INFO] Epoch 6/10 Train Loss: 12.7974 | Val Loss: 14.6677 | title Acc: 0.0147 | author Acc: 0.0368
+[2025-11-28 10:07:05] [INFO] Epoch 7/10 Train Loss: 12.6841 | Val Loss: 14.7624 | title Acc: 0.0165 | author Acc: 0.0368
+[2025-11-28 10:07:05] [INFO] Epoch 8/10 Train Loss: 12.5858 | Val Loss: 14.8524 | title Acc: 0.0184 | author Acc: 0.0441
+[2025-11-28 10:07:06] [INFO] Epoch 9/10 Train Loss: 12.4968 | Val Loss: 14.9395 | title Acc: 0.0202 | author Acc: 0.0460
+[2025-11-28 10:07:06] [INFO] Epoch 10/10 Train Loss: 12.4138 | Val Loss: 15.0166 | title Acc: 0.0221 | author Acc: 0.0570
+[2025-11-28 10:07:06] [INFO] Training finished.
+[2025-11-28 10:07:06] [INFO] Saved multi-field probe (on features) to /workspace/probing/Probing/src/multi_field_probe_on_features.pt
+[2025-11-28 10:07:11] [INFO] Loading trained probe from: /workspace/probing/Probing/src/multi_field_probe_on_features.pt
+[2025-11-28 10:07:11] [INFO] Loading tokenizer & model (for probing)...
+[2025-11-28 10:07:20] [INFO] Hidden size: 3584
+[2025-11-28 10:07:20] [INFO] Model param device: cuda:0
+[2025-11-28 10:07:20] [INFO] Loading samples from jsonl for probing...
+[2025-11-28 10:07:20] [INFO] Total samples: 20
+[2025-11-28 10:07:22] [INFO] {"image_path": "/workspace/share/data/jpg/61c9efe0-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "寒林钟馗图", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "陈琳", "pred_author": "沈周", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:07:23] [INFO] {"image_path": "/workspace/share/data/jpg/68ab8de6-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "红白芙蓉図", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "李迪", "pred_author": "马远", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:07:24] [INFO] {"image_path": "/workspace/share/data/jpg/6862b8fa-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "Flowers and Plants", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "陈鸿寿", "pred_author": "石涛", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:07:24] [INFO] {"image_path": "/workspace/share/data/jpg/62aaae22-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "牧牛图", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "张穆", "pred_author": "沈周", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:07:25] [INFO] {"image_path": "/workspace/share/data/jpg/61c9efe0-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "寒林钟馗图", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "陈琳", "pred_author": "沈周", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:07:40] [INFO] {"image_path": "/workspace/share/data/jpg/2b6a8968-5f3e-11ed-b1c1-2d612f358c7a.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "赤壁图", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "武元直", "pred_author": "董其昌", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:07:40] [INFO] Saved probing predictions to: /workspace/probing/Probing/src/probing_predictions_all_multi_fields.jsonl
+[2025-11-28 10:07:40] [INFO] Done.
+[2025-11-28 10:25:32] [INFO] Loading trained probe from: /workspace/probing/Probing/src/multi_field_probe_on_features.pt
+[2025-11-28 10:25:32] [INFO] Loading tokenizer & model (for probing)...
+[2025-11-28 10:25:43] [INFO] Hidden size: 3584
+[2025-11-28 10:25:43] [INFO] Model param device: cuda:0
+[2025-11-28 10:25:43] [INFO] Loading samples from jsonl for probing...
+[2025-11-28 10:25:43] [INFO] Total samples: 20
+[2025-11-28 10:25:44] [INFO] {"image_path": "/workspace/share/data/jpg/61c9efe0-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "寒林钟馗图", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "陈琳", "pred_author": "沈周", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:25:45] [INFO] {"image_path": "/workspace/share/data/jpg/68ab8de6-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "红白芙蓉図", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "李迪", "pred_author": "马远", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:25:46] [INFO] {"image_path": "/workspace/share/data/jpg/6862b8fa-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "Flowers and Plants", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "陈鸿寿", "pred_author": "石涛", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:25:47] [INFO] {"image_path": "/workspace/share/data/jpg/62aaae22-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "牧牛图", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "张穆", "pred_author": "沈周", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:25:48] [INFO] {"image_path": "/workspace/share/data/jpg/61c9efe0-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "寒林钟馗图", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "陈琳", "pred_author": "沈周", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:25:49] [INFO] {"image_path": "/workspace/share/data/jpg/69fdbcdc-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "虎", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "刘继彪", "pred_author": "沈周", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:25:50] [INFO] {"image_path": "/workspace/share/data/jpg/2b6a8968-5f3e-11ed-b1c1-2d612f358c7a.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "赤壁图", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "武元直", "pred_author": "董其昌", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:25:51] [INFO] {"image_path": "/workspace/share/data/jpg/6a6d2a86-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "风竹图", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "石涛", "pred_author": "石涛", "correct_author": true, "correct_all_fields": false}
+[2025-11-28 10:25:52] [INFO] {"image_path": "/workspace/share/data/jpg/6a60fb26-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "月曼清游图", "pred_title": "红楼梦", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "冷枚", "pred_author": "孙温", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:25:53] [INFO] {"image_path": "/workspace/share/data/jpg/6862b8fa-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "Flowers and Plants", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "陈鸿寿", "pred_author": "石涛", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:25:54] [INFO] {"image_path": "/workspace/share/data/jpg/63d8603c-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "第九拔嘎沽拉尊者轴", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "姚文瀚", "pred_author": "石涛", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:25:55] [INFO] {"image_path": "/workspace/share/data/jpg/65477868-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "交阯果然轴", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "郎世宁", "pred_author": "石涛", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:25:56] [INFO] {"image_path": "/workspace/share/data/jpg/65477868-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "交阯果然轴", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "郎世宁", "pred_author": "石涛", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:25:57] [INFO] {"image_path": "/workspace/share/data/jpg/69fdbcdc-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "虎", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "刘继彪", "pred_author": "沈周", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:25:58] [INFO] {"image_path": "/workspace/share/data/jpg/6a6d2a86-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "风竹图", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "石涛", "pred_author": "石涛", "correct_author": true, "correct_all_fields": false}
+[2025-11-28 10:25:58] [INFO] {"image_path": "/workspace/share/data/jpg/62aaae22-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "牧牛图", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "张穆", "pred_author": "沈周", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:26:00] [INFO] {"image_path": "/workspace/share/data/jpg/6a60fb26-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "月曼清游图", "pred_title": "红楼梦", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "冷枚", "pred_author": "孙温", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:26:00] [INFO] {"image_path": "/workspace/share/data/jpg/63d8603c-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "第九拔嘎沽拉尊者轴", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "姚文瀚", "pred_author": "石涛", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:26:02] [INFO] {"image_path": "/workspace/share/data/jpg/68ab8de6-4070-11ed-9adc-c934f75048ef.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "红白芙蓉図", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "李迪", "pred_author": "马远", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:26:02] [INFO] {"image_path": "/workspace/share/data/jpg/2b6a8968-5f3e-11ed-b1c1-2d612f358c7a.jpg", "title_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请据图片判断这幅画的作品名。只回答作品名。", "gt_title": "赤壁图", "pred_title": "山水册", "correct_title": false, "author_question": "<|system|>\n你是一个国画领域的AI模型，擅长回答关于国画的问题。请赏析这幅画，基于其内容、结构、技法来分析这幅画的相关信息，随后，回答以下问题。\n<|user|>\n<|image_pad|>\n请根据图片判断这幅画的作者。只回答作者的名字。", "gt_author": "武元直", "pred_author": "董其昌", "correct_author": false, "correct_all_fields": false}
+[2025-11-28 10:26:02] [INFO] Saved probing predictions to: /workspace/probing/Probing/src/probing_predictions_all_multi_fields.jsonl
+[2025-11-28 10:26:02] [INFO] Field [title] accuracy: 0.0000 (0/20)
+[2025-11-28 10:26:02] [INFO] Field [author] accuracy: 0.1000 (2/20)
+[2025-11-28 10:26:02] [INFO] Overall sample-level accuracy (all available fields correct): 0.0000 (0/20)
+[2025-11-28 10:26:02] [INFO] Final field accuracies: {'title': 0.0, 'author': 0.1}
+[2025-11-28 10:26:02] [INFO] Final overall accuracy (all fields correct): 0.0000
+[2025-11-28 10:26:02] [INFO] Done.
+[2025-11-28 10:27:29] [INFO] Loading trained probe from: /workspace/probing/Probing/src/multi_field_probe_on_features.pt
+[2025-11-28 10:27:29] [INFO] Loading tokenizer & model (for probing)...
+[2025-11-28 10:27:39] [INFO] Hidden size: 3584
+[2025-11-28 10:27:39] [INFO] Model param device: cuda:0
+[2025-11-28 10:27:39] [INFO] Loading samples from jsonl for probing...
+[2025-11-28 10:27:39] [INFO] Total samples: 20
+[2025-11-28 10:27:53] [INFO] Saved probing predictions to: /workspace/probing/Probing/src/probing_predictions_all_multi_fields.jsonl
+[2025-11-28 10:27:53] [INFO] Field [title] accuracy: 0.0000 (0/20)
+[2025-11-28 10:27:53] [INFO] Field [author] accuracy: 0.1000 (2/20)
+[2025-11-28 10:27:53] [INFO] Overall sample-level accuracy (all available fields correct): 0.0000 (0/20)
+[2025-11-28 10:27:53] [INFO] Final field accuracies: {'title': 0.0, 'author': 0.1}
+[2025-11-28 10:27:53] [INFO] Final overall accuracy (all fields correct): 0.0000
+[2025-11-28 10:27:53] [INFO] Done.
+[2025-12-01 02:58:10] [INFO] Loading trained probe from: /workspace/probing/Probing/src/multi_field_probe_on_features.pt
+[2025-12-01 02:58:10] [INFO] Loading tokenizer & model (for probing)...
+[2025-12-01 02:58:20] [INFO] Hidden size: 3584
+[2025-12-01 02:58:20] [INFO] Model param device: cuda:0
+[2025-12-01 02:58:20] [INFO] Loading samples from jsonl for probing...
+[2025-12-01 02:58:20] [INFO] Total samples: 20
+[2025-12-01 02:58:36] [INFO] Saved probing predictions to: /workspace/probing/Probing/src/probing_predictions_all_multi_fields.jsonl
+[2025-12-01 02:58:36] [INFO] Field [title] accuracy: 0.0000 (0/20)
+[2025-12-01 02:58:36] [INFO] Field [author] accuracy: 0.1000 (2/20)
+[2025-12-01 02:58:36] [INFO] Overall sample-level accuracy (all available fields correct): 0.0000 (0/20)
+[2025-12-01 02:58:36] [INFO] Final field accuracies: {'title': 0.0, 'author': 0.1}
+[2025-12-01 02:58:36] [INFO] Final overall accuracy (all fields correct): 0.0000
+[2025-12-01 02:58:36] [INFO] Done.
+[2025-12-01 02:59:20] [INFO] Loading trained probe from: /workspace/probing/Probing/src/multi_field_probe_on_features.pt
+[2025-12-01 02:59:21] [INFO] Loading tokenizer & model (for probing)...
+[2025-12-01 02:59:30] [INFO] Hidden size: 3584
+[2025-12-01 02:59:30] [INFO] Model param device: cuda:0
+[2025-12-01 02:59:30] [INFO] Loading samples from jsonl for probing...
+[2025-12-01 02:59:30] [INFO] Total samples: 2719
+[2025-12-01 03:38:44] [INFO] Saved probing predictions to: /workspace/probing/Probing/src/probing_predictions_all_multi_fields.jsonl
+[2025-12-01 03:38:44] [INFO] Field [title] accuracy: 0.0246 (67/2719)
+[2025-12-01 03:38:44] [INFO] Field [author] accuracy: 0.0485 (132/2719)
+[2025-12-01 03:38:44] [INFO] Overall sample-level accuracy (all available fields correct): 0.0092 (25/2719)
+[2025-12-01 03:38:44] [INFO] Final field accuracies: {'title': 0.024641412283927914, 'author': 0.04854726002206693}
+[2025-12-01 03:38:44] [INFO] Final overall accuracy (all fields correct): 0.0092
+[2025-12-01 03:38:44] [INFO] Done.
+[2025-12-01 06:33:59] [INFO] Loading samples from jsonl...
+[2025-12-01 06:33:59] [INFO] Train size: 16, Val size: 4
+[2025-12-01 06:34:05] [INFO] 
+Saved precomputed features to: /workspace/probing/Probing/src/test_precomputed_features.pt
+[2025-12-01 06:57:02] [INFO] Loading tokenizer & model...
+[2025-12-01 06:57:11] [INFO] Hidden size: 3584
+[2025-12-01 06:57:11] [INFO] Model param device: cuda:0
+[2025-12-01 06:57:11] [INFO] Loading samples from jsonl...
+[2025-12-01 06:57:11] [INFO] Total samples: 20
+[2025-12-01 06:57:11] [INFO] Active fields: ['title', 'author']
+[2025-12-01 06:57:11] [INFO] Train size: 16, Val size: 4
+[2025-12-01 07:02:57] [INFO] Loading tokenizer & model...
+[2025-12-01 07:03:06] [INFO] Hidden size: 3584
+[2025-12-01 07:03:06] [INFO] Model param device: cuda:0
+[2025-12-01 07:03:06] [INFO] Loading samples from jsonl...
+[2025-12-01 07:03:06] [INFO] Total samples: 20
+[2025-12-01 07:03:06] [INFO] Active fields: ['title', 'author']
+[2025-12-01 07:03:06] [INFO] Train size: 16, Val size: 4
+[2025-12-01 07:17:03] [INFO] Loading tokenizer & model...
+[2025-12-01 07:17:12] [INFO] Hidden size: 3584
+[2025-12-01 07:17:12] [INFO] Model param device: cuda:0
+[2025-12-01 07:17:12] [INFO] Loading samples from jsonl...
+[2025-12-01 07:17:12] [INFO] Total samples: 20
+[2025-12-01 07:17:12] [INFO] Active fields: ['title', 'author']
+[2025-12-01 07:17:12] [INFO] Train size: 16, Val size: 4
+[2025-12-01 07:20:25] [INFO] Loading tokenizer & model...
+[2025-12-01 07:20:33] [INFO] Hidden size: 3584
+[2025-12-01 07:20:33] [INFO] Model param device: cuda:0
+[2025-12-01 07:20:33] [INFO] Loading samples from jsonl...
+[2025-12-01 07:20:33] [INFO] Total samples: 20
+[2025-12-01 07:20:33] [INFO] Active fields: ['title', 'author']
+[2025-12-01 07:20:33] [INFO] Train size: 16, Val size: 4
+[2025-12-01 07:20:39] [INFO] Final features shape: torch.Size([20, 3584])
+[2025-12-01 07:20:39] [INFO] Labels[title] shape: torch.Size([20])
+[2025-12-01 07:20:39] [INFO] Labels[author] shape: torch.Size([20])
+[2025-12-01 07:20:39] [INFO] Saved precomputed features to: /workspace/probing/Probing/src/precomputed_features_image_only.pt
+[2025-12-01 07:23:27] [INFO] Loading tokenizer & model...
+[2025-12-01 07:23:36] [INFO] Hidden size: 3584
+[2025-12-01 07:23:36] [INFO] Model param device: cuda:0
+[2025-12-01 07:23:36] [INFO] Loading samples from jsonl...
+[2025-12-01 07:23:36] [INFO] Total samples: 2719
+[2025-12-01 07:23:36] [INFO] Active fields: ['title', 'author']
+[2025-12-01 07:23:36] [INFO] Train size: 2175, Val size: 544
+[2025-12-01 07:31:56] [INFO] Final features shape: torch.Size([2719, 3584])
+[2025-12-01 07:31:56] [INFO] Labels[title] shape: torch.Size([2719])
+[2025-12-01 07:31:56] [INFO] Labels[author] shape: torch.Size([2719])
+[2025-12-01 07:31:56] [INFO] Saved precomputed features to: /workspace/probing/Probing/src/precomputed_features_image_only.pt
+[2025-12-01 07:32:59] [INFO] Loading precomputed features from: /workspace/probing/Probing/src/precomputed_features_image_only.pt
+[2025-12-01 07:32:59] [INFO] Loaded features: torch.Size([2719, 3584])
+[2025-12-01 07:32:59] [INFO] Active fields from precompute: ['title', 'author']
+[2025-12-01 07:32:59] [INFO] Fields used for training: ['title', 'author']
+[2025-12-01 07:32:59] [INFO] Train size: 2175, Val size: 544
+[2025-12-01 07:33:00] [INFO] Start training (multi-head probe on precomputed features)...
+[2025-12-01 07:33:01] [INFO] Epoch 1/10 Train Loss: 14.1323 | Val Loss: 14.1126 | title Acc: 0.0257 | author Acc: 0.0239
+[2025-12-01 07:33:01] [INFO] Epoch 2/10 Train Loss: 13.4222 | Val Loss: 14.3110 | title Acc: 0.0129 | author Acc: 0.0294
+[2025-12-01 07:33:01] [INFO] Epoch 3/10 Train Loss: 13.0579 | Val Loss: 14.4954 | title Acc: 0.0129 | author Acc: 0.0257
+[2025-12-01 07:33:01] [INFO] Epoch 4/10 Train Loss: 12.8164 | Val Loss: 14.6697 | title Acc: 0.0129 | author Acc: 0.0257
+[2025-12-01 07:33:01] [INFO] Epoch 5/10 Train Loss: 12.6370 | Val Loss: 14.8268 | title Acc: 0.0129 | author Acc: 0.0276
+[2025-12-01 07:33:01] [INFO] Epoch 6/10 Train Loss: 12.4852 | Val Loss: 14.9678 | title Acc: 0.0165 | author Acc: 0.0404
+[2025-12-01 07:33:01] [INFO] Epoch 7/10 Train Loss: 12.3492 | Val Loss: 15.0878 | title Acc: 0.0221 | author Acc: 0.0423
+[2025-12-01 07:33:01] [INFO] Epoch 8/10 Train Loss: 12.2203 | Val Loss: 15.1959 | title Acc: 0.0239 | author Acc: 0.0496
+[2025-12-01 07:33:01] [INFO] Epoch 9/10 Train Loss: 12.0947 | Val Loss: 15.2920 | title Acc: 0.0276 | author Acc: 0.0515
+[2025-12-01 07:33:01] [INFO] Epoch 10/10 Train Loss: 11.9715 | Val Loss: 15.3778 | title Acc: 0.0312 | author Acc: 0.0551
+[2025-12-01 07:33:01] [INFO] Training finished.
+[2025-12-01 07:33:01] [INFO] Saved multi-field probe (on features) to /workspace/probing/Probing/src/multi_field_probe_on_features.pt
+[2025-12-01 07:43:58] [INFO] Loading trained probe from: /workspace/probing/Probing/src/multi_field_probe_on_features.pt
+[2025-12-01 07:43:58] [INFO] Loading tokenizer & model (for probing)...
+[2025-12-01 07:44:06] [INFO] Hidden size: 3584
+[2025-12-01 07:44:06] [INFO] Model param device: cuda:0
+[2025-12-01 07:44:06] [INFO] Loading samples from jsonl for probing...
+[2025-12-01 07:44:06] [INFO] Total samples: 2719
+[2025-12-01 07:46:06] [INFO] Loading trained probe from: /workspace/probing/Probing/src/multi_field_probe_on_features.pt
+[2025-12-01 07:46:06] [INFO] Loading tokenizer & model (for probing)...
+[2025-12-01 07:46:16] [INFO] Hidden size: 3584
+[2025-12-01 07:46:16] [INFO] Model param device: cuda:0
+[2025-12-01 07:46:16] [INFO] Loading samples from jsonl for probing...
+[2025-12-01 07:46:16] [INFO] Total samples: 2719
+[2025-12-01 08:05:32] [INFO] Saved probing predictions to: /workspace/probing/Probing/src/probing_predictions_all_multi_fields_image_only.jsonl
+[2025-12-01 08:05:32] [INFO] Field [title] accuracy: 0.0309 (84/2719)
+[2025-12-01 08:05:32] [INFO] Field [author] accuracy: 0.0533 (145/2719)
+[2025-12-01 08:05:32] [INFO] Overall sample-level accuracy (all available fields correct): 0.0114 (31/2719)
+[2025-12-01 08:05:32] [INFO] Final field accuracies: {'title': 0.030893710923133505, 'author': 0.05332842956969474}
+[2025-12-01 08:05:32] [INFO] Final overall accuracy (all fields correct): 0.0114
+[2025-12-01 08:05:32] [INFO] Done.
+[2025-12-01 08:10:03] [INFO] Saved probing predictions to: /workspace/probing/Probing/src/probing_predictions_all_multi_fields.jsonl
+[2025-12-01 08:10:03] [INFO] Field [title] accuracy: 0.0162 (44/2719)
+[2025-12-01 08:10:03] [INFO] Field [author] accuracy: 0.0221 (60/2719)
+[2025-12-01 08:10:03] [INFO] Overall sample-level accuracy (all available fields correct): 0.0000 (0/2719)
+[2025-12-01 08:10:03] [INFO] Final field accuracies: {'title': 0.016182420007355647, 'author': 0.02206693637366679}
+[2025-12-01 08:10:03] [INFO] Final overall accuracy (all fields correct): 0.0000
+[2025-12-01 08:10:03] [INFO] Done.
+[2025-12-02 07:07:57] [INFO] Loading tokenizer & model...
+[2025-12-02 07:08:06] [INFO] Hidden size: 3584
+[2025-12-02 07:08:06] [INFO] Model param device: cuda:0
+[2025-12-02 07:08:06] [INFO] Loading samples from jsonl...
+[2025-12-02 07:08:06] [INFO] Total samples: 2719
+[2025-12-02 07:08:06] [INFO] Active fields: ['title', 'author']
+[2025-12-02 07:08:06] [INFO] Train size: 2175, Val size: 544
+[2025-12-02 07:16:25] [INFO] Final features shape: torch.Size([2719, 3584])
+[2025-12-02 07:16:25] [INFO] Labels[title] shape: torch.Size([2719])
+[2025-12-02 07:16:25] [INFO] Labels[author] shape: torch.Size([2719])
+[2025-12-02 07:16:25] [INFO] Saved precomputed features to: /workspace/probing/Probing/src/qwen_precomputed_feature.pt
+[2025-12-02 07:20:19] [INFO] Loading precomputed features from: /workspace/probing/Probing/src/qwen_precomputed_feature.pt
+[2025-12-02 07:20:19] [INFO] Loaded features: torch.Size([2719, 3584])
+[2025-12-02 07:20:19] [INFO] Active fields from precompute: ['title', 'author']
+[2025-12-02 07:20:19] [INFO] Fields used for training: ['title', 'author']
+[2025-12-02 07:20:19] [INFO] Train size: 2175, Val size: 544
+[2025-12-02 07:20:21] [INFO] Start training (multi-head probe on precomputed features)...
+[2025-12-02 07:20:21] [INFO] Epoch 1/20 Train Loss: 14.1347 | Val Loss: 14.1147 | title Acc: 0.0129 | author Acc: 0.0110
+[2025-12-02 07:20:21] [INFO] Epoch 2/20 Train Loss: 13.4350 | Val Loss: 14.3085 | title Acc: 0.0129 | author Acc: 0.0147
+[2025-12-02 07:20:21] [INFO] Epoch 3/20 Train Loss: 13.0724 | Val Loss: 14.4930 | title Acc: 0.0129 | author Acc: 0.0184
+[2025-12-02 07:20:21] [INFO] Epoch 4/20 Train Loss: 12.8359 | Val Loss: 14.6598 | title Acc: 0.0129 | author Acc: 0.0239
+[2025-12-02 07:20:21] [INFO] Epoch 5/20 Train Loss: 12.6579 | Val Loss: 14.8132 | title Acc: 0.0129 | author Acc: 0.0294
+[2025-12-02 07:20:21] [INFO] Epoch 6/20 Train Loss: 12.5105 | Val Loss: 14.9496 | title Acc: 0.0184 | author Acc: 0.0386
+[2025-12-02 07:20:22] [INFO] Epoch 7/20 Train Loss: 12.3776 | Val Loss: 15.0725 | title Acc: 0.0221 | author Acc: 0.0460
+[2025-12-02 07:20:22] [INFO] Epoch 8/20 Train Loss: 12.2522 | Val Loss: 15.1772 | title Acc: 0.0294 | author Acc: 0.0460
+[2025-12-02 07:20:22] [INFO] Epoch 9/20 Train Loss: 12.1304 | Val Loss: 15.2721 | title Acc: 0.0312 | author Acc: 0.0551
+[2025-12-02 07:20:22] [INFO] Epoch 10/20 Train Loss: 12.0113 | Val Loss: 15.3629 | title Acc: 0.0312 | author Acc: 0.0533
+[2025-12-02 07:20:22] [INFO] Epoch 11/20 Train Loss: 11.8948 | Val Loss: 15.4356 | title Acc: 0.0331 | author Acc: 0.0515
+[2025-12-02 07:20:22] [INFO] Epoch 12/20 Train Loss: 11.7811 | Val Loss: 15.5075 | title Acc: 0.0312 | author Acc: 0.0551
+[2025-12-02 07:20:22] [INFO] Epoch 13/20 Train Loss: 11.6686 | Val Loss: 15.5692 | title Acc: 0.0349 | author Acc: 0.0607
+[2025-12-02 07:20:22] [INFO] Epoch 14/20 Train Loss: 11.5567 | Val Loss: 15.6295 | title Acc: 0.0349 | author Acc: 0.0643
+[2025-12-02 07:20:22] [INFO] Epoch 15/20 Train Loss: 11.4465 | Val Loss: 15.6803 | title Acc: 0.0368 | author Acc: 0.0625
+[2025-12-02 07:20:22] [INFO] Epoch 16/20 Train Loss: 11.3371 | Val Loss: 15.7264 | title Acc: 0.0368 | author Acc: 0.0625
+[2025-12-02 07:20:22] [INFO] Epoch 17/20 Train Loss: 11.2292 | Val Loss: 15.7772 | title Acc: 0.0368 | author Acc: 0.0680
+[2025-12-02 07:20:22] [INFO] Epoch 18/20 Train Loss: 11.1238 | Val Loss: 15.8224 | title Acc: 0.0404 | author Acc: 0.0754
+[2025-12-02 07:20:22] [INFO] Epoch 19/20 Train Loss: 11.0185 | Val Loss: 15.8592 | title Acc: 0.0368 | author Acc: 0.0699
+[2025-12-02 07:20:22] [INFO] Epoch 20/20 Train Loss: 10.9135 | Val Loss: 15.9016 | title Acc: 0.0404 | author Acc: 0.0662
+[2025-12-02 07:20:22] [INFO] Training finished.
+[2025-12-02 07:20:23] [INFO] Saved multi-field probe (on features) to /workspace/probing/Probing/src/multi_field_probe_on_features.pt
+[2025-12-02 07:21:25] [INFO] Loading trained probe from: /workspace/probing/Probing/src/multi_field_probe_on_features.pt
+[2025-12-02 07:21:25] [INFO] Loading tokenizer & model (for probing)...
+[2025-12-02 07:21:33] [INFO] Hidden size: 3584
+[2025-12-02 07:21:33] [INFO] Model param device: cuda:0
+[2025-12-02 07:21:33] [INFO] Loading samples from jsonl for probing...
+[2025-12-02 07:21:33] [INFO] Total samples: 2719
+[2025-12-02 07:42:30] [INFO] Saved probing predictions to: /workspace/probing/Probing/src/probing_predictions_all_multi_fields.jsonl
+[2025-12-02 07:42:30] [INFO] Field [title] accuracy: 0.0276 (75/2719)
+[2025-12-02 07:42:30] [INFO] Field [author] accuracy: 0.0364 (99/2719)
+[2025-12-02 07:42:30] [INFO] Overall sample-level accuracy (all available fields correct): 0.0007 (2/2719)
+[2025-12-02 07:42:30] [INFO] Final field accuracies: {'title': 0.027583670467083488, 'author': 0.036410445016550205}
+[2025-12-02 07:42:30] [INFO] Final overall accuracy (all fields correct): 0.0007
+[2025-12-02 07:42:30] [INFO] Done.
